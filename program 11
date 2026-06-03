@@ -1,0 +1,21 @@
+DEMO.JAVA
+
+package swey;
+
+public class demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+			StringBuffer sb1 = new StringBuffer("Hello");
+			StringBuffer sb2 = sb1;
+			sb1.append(" world");
+			if(sb1 == sb2)
+				System.out.println("Same");
+			else
+				System.out.println("Not Same");
+
+			}
+
+		}
