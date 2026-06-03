@@ -1,0 +1,15 @@
+StringEx
+
+package until;
+
+public class StringEx {
+
+	public static void main(String[] args) {
+		String s = "Sachin";
+		s.concat("Tendulkar");
+		System.out.println(s);
+		// TODO Auto-generated method stub
+
+	}
+
+}
