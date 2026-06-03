@@ -1,0 +1,14 @@
+TEST.JAVA
+
+package swey;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Test myobj = new Test();
+		System.out.println(myobj);
+
+	}
+
+}
