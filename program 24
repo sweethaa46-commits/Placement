@@ -1,0 +1,22 @@
+PARACOUNT
+
+package Day3;
+
+public class ParaCount {
+  
+		// TODO Auto-generated method stub
+		        String name;
+			    int id;
+			    ParaCount(String name,int id){
+			    	this.name=name;
+			    	this.id=id;
+			    }
+			    void display() {
+			    	System.out.println("Student Name:"+name+" and Student Id:"+id);
+			    }
+				public static void main(String[] args) {
+					ParaCount myObj=new ParaCount("Sachin",68);
+					myObj.display();
+				}
+
+			}
