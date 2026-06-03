@@ -1,0 +1,14 @@
+INDEX.JAVA
+
+package day2;
+
+public class Index {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Java is fun";
+		System.out.println("Index:"+str.indexOf('f'));
+
+	}
+
+}
