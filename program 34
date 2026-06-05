@@ -1,0 +1,33 @@
+POLYMORPHISM
+
+package Day4;
+class Parent{
+	void print() {
+		System.out.println("Parent class");
+	}
+}
+class Subclass extends Parent{
+	void print() {
+		System.out.println("Subclass1");
+	}
+}
+class Subclass2 extends Parent{
+	void print() {
+		System.out.print("Subclass2");
+	}
+}
+
+public class Polymorphism {
+
+	public static void main(String[] args) {
+		Parent a;
+		a = new Subclass();
+		a.print();
+		a = new Subclass2();
+		a.print();
+		
+		
+	}
+
+}
+
